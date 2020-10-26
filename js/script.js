@@ -16,9 +16,12 @@ var testostampato = "";
 
 //loop numbers 1 to 100
 for (var i = 1; i <= 100; i++) {
+  //stampo tutti i numeri ciclati
+  document.writeln(i + "<br>");
   if (i % 3 === 0 && i % 5 === 0) {
     //stampo FizzBuzz
     console.log("FizzBuzz");
+    document.writeln("FizzBuzz" + "<br>");
   } else if (i % 3 === 0) {
     //stampo Fizz
     console.log("Fizz");
