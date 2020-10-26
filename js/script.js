@@ -17,7 +17,7 @@ var testostampato = "";
 //loop numbers 1 to 100
 for (var i = 1; i <= 100; i++) {
   //stampo tutti i numeri ciclati
-  document.writeln(i + "<br>");
+
   if (i % 3 === 0 && i % 5 === 0) {
     //stampo FizzBuzz
     console.log("FizzBuzz");
@@ -25,12 +25,13 @@ for (var i = 1; i <= 100; i++) {
   } else if (i % 3 === 0) {
     //stampo Fizz
     console.log("Fizz");
-    document.writeln("FizzBuzz" + "<br>");
+    document.writeln("Fizz" + "<br>");
   } else if (i % 5 === 0) {
     //stampo Buzz
     console.log("Buzz");
-    document.writeln("FizzBuzz" + "<br>");
+    document.writeln("Buzz" + "<br>");
   } else {
     console.log(i);
+    document.writeln(i + "<br>");
   }
 }
