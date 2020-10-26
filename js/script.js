@@ -25,9 +25,11 @@ for (var i = 1; i <= 100; i++) {
   } else if (i % 3 === 0) {
     //stampo Fizz
     console.log("Fizz");
+    document.writeln("FizzBuzz" + "<br>");
   } else if (i % 5 === 0) {
     //stampo Buzz
     console.log("Buzz");
+    document.writeln("FizzBuzz" + "<br>");
   } else {
     console.log(i);
   }
