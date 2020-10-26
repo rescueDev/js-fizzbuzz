@@ -12,8 +12,6 @@ Consigli del giorno:
 
 var stampaTesto = document.getElementById("testo");
 
-var testostampato = "";
-
 //loop numbers 1 to 100
 for (var i = 1; i <= 100; i++) {
   //stampo tutti i numeri ciclati
@@ -31,6 +29,7 @@ for (var i = 1; i <= 100; i++) {
     console.log("Buzz");
     document.writeln("Buzz" + "<br>");
   } else {
+    //stampo tutti gli altri numeri
     console.log(i);
     document.writeln(i + "<br>");
   }
