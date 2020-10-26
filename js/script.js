@@ -10,6 +10,10 @@ Consigli del giorno:
 2. proviamo ad immaginare le operazioni che vogliamo far svolgere al nostro programma così come lo faremmo “a mano”
  */
 
+var stampaTesto = document.getElementById("testo");
+
+var testostampato = "";
+
 //loop numbers 1 to 100
 for (var i = 1; i <= 100; i++) {
   if (i % 3 === 0 && i % 5 === 0) {
