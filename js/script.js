@@ -30,3 +30,27 @@ for (var i = 1; i <= 100; i++) {
     document.writeln(i + "<br>");
   }
 }
+
+//ALTERNATIVA CON INNERHTML
+
+//loop numbers 1 to 100
+/* for (var i = 1; i <= 100; i++) {
+  var stampaTesto = document.getElementById("testo");
+  if (i % 3 === 0 && i % 5 === 0) {
+    //stampo FizzBuzz
+    console.log("FizzBuzz");
+    stampaTesto.innerHTML += "FizzBuzz" + "<br>";
+  } else if (i % 3 === 0) {
+    //stampo Fizz
+    console.log("Fizz");
+    stampaTesto.innerHTML += "Fizz" + "<br>";
+  } else if (i % 5 === 0) {
+    //stampo Buzz
+    console.log("Buzz");
+    stampaTesto.innerHTML += "Buzz" + "<br>";
+  } else {
+    //stampo tutti gli altri numeri
+    console.log(i);
+    stampaTesto.innerHTML += i + "<br>";
+  }
+} */
